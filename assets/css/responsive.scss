@@ -1,0 +1,903 @@
+@import "var.scss";
+@media screen and(max-width: 1441px) {
+    .ia-author {
+        #circle{
+            right: 10%;
+        }
+        p {
+            font-size: 1.6rem;
+        }
+    }
+}
+@media screen and (max-width: 1025px) {
+    #main-nav {
+        padding: 10px 50px;
+    }
+    .ia-cards {
+        padding-left: 0px;
+        
+        .cards {
+            width: 290px;
+            .price-samsung {
+                h3 {
+                    margin-top: 52px;
+
+                }
+            }
+        }
+        #samsung-phone {
+            img {
+                width: 80%;
+                margin-bottom: 25px;
+                transform: translateX(10%);
+            }
+          
+        }
+    }
+    
+    .samsung-phone{
+        h2 {
+            padding: 3px 0px;
+        }
+    }
+    aside {
+        width: 22%;
+        #ia-btn-form {
+            transform: translateX(25%);
+        }
+        input[type=range]{
+            width: 120px;
+        }
+    }
+    .products-1 {
+        .cards {
+            width: 270px;
+            height: 400px;
+
+            img {
+                width: 90%;
+            }
+            h2 {
+                font-size: 1.3rem;
+            }
+            .price {
+                width: 170px;
+                h3 {
+                    font-size: 1.4rem;
+                }
+            }
+            .info {
+                width: 250px;
+            }
+            #samsung-laptop {
+                img {
+                    transform: translateX(7%);
+                }
+               
+            }
+            #lenovo {
+                img {
+                    width: 60%!important;
+                    margin: 20px 0px;
+                    transform: translateX(30%);
+                }
+            }
+            
+        }
+        .ia-phone-iphone {
+            img {
+                width: 50%;
+                transform: translateX(50%);
+            }
+        }
+    }
+    
+.product-img-sams {
+        img {
+            width: 65%;
+        }
+    } 
+
+.product-price-iphone {
+    transform: translateX(0%);
+}
+.dell-monitor {
+    img {
+        width: 60%;
+    }
+}
+
+.ia-author {
+    #circle {
+        right: 10%;
+        width: 90px;
+        height: 90px;
+    }
+    p {
+        font-size: 1.4rem;
+    }
+}
+}
+
+@media screen and (max-width: 769px) {
+    #nav-button {
+        display: flex;
+        justify-content: flex-end;
+        
+    button {
+        background-color: red;
+        padding: 4px 8px;
+    }
+    
+}
+
+    #main-nav {
+        #ia-hamburger-menu {
+            background-color: rgba(0, 0, 0, 0);
+            border: 1px solid $white;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+
+            .navbar-toggler-icon {
+                background-color: white;
+                width: 25px;
+                margin: 3px 0px;
+                height: 3px;
+            }
+        }
+    }
+    .ia-cards,.products-1{
+        margin: 0px!important;
+        .cards {
+            height: 400px;
+            margin: 10px auto!important;
+            h2 {
+                font-size: 1.3rem;
+            }
+        .price {
+            width: 170px;
+            h3 {
+                font-size: 1.3rem;
+            }
+        }
+        .info {
+            width: 250px;
+            img {
+                margin-top: 10px!important;
+            }
+           
+        }
+        .price-samsung {
+            h3 {
+                margin-top: 30px;
+
+            }
+        }
+        }
+      
+    }
+
+    .ia-form {
+        padding-right: 0px!important;
+        padding-left: 35px!important;
+    }
+   
+
+/*Laptop Page*/
+    aside {
+        width: 200px;
+        input[type=range]{
+            width: 120px;
+        }
+        #ia-btn-form {
+            transform: translateX(20%);
+        }
+        .ia-aside {
+            margin-left: 0px!important;
+        }
+    }
+
+    .products-1 {
+       .cards {
+           margin-top: 50px;
+           width: 240px;
+           height: 350px;
+
+           h2 {
+               font-size: 1.1rem;
+           }
+          .price {
+              width: 150px;
+              h3 {
+                  font-size: 1.1rem;
+                  margin-top: 30px;
+              }
+          }
+          .info {
+              width: 200px;
+          }
+          
+       } 
+       .ia-ml-mr {
+        margin-left: 90px;
+        margin-right: 40px;
+      }
+      .ia-mt {
+          margin-top:50px ;
+      }
+      .ia-predator-mon {
+        h2 {
+            margin: 25px auto;
+        }
+    }
+
+      .ia-dell {
+        img {
+            transform: translateX(40%)!important;
+            width: 65%!important;
+            margin: 0px!important;
+            }       
+        }
+    }
+
+.about-product {
+    table tr td {
+        font-size: 1.1rem;
+    }
+}
+.product-price {
+    p {
+        width: 140px;
+        height: 40px;
+        font-size: 1.3rem;
+    }
+
+}
+
+.about-product-lenovo{
+    transform: translateX(20%);
+}
+.product-price-lenovo {
+    transform: translateX(-25%);
+    input[type=submit]{
+        width: 140px;
+    }
+    p {
+        font-size: 1.1rem;
+    }
+}
+.product-img-sams {
+    img {
+        width: 65%;
+    }
+}
+.about-product-samsung {
+    transform: translateX(20%);
+}
+.product-price-samsung{
+        transform: translateX(-30px);
+        input[type=number]{
+            display: block!important; 
+        }
+        input[type=submit]{
+            width: 140px;
+        }
+}
+.product-price-iphone {
+    p {
+        font-size: 1rem;
+    }
+    input[type=submit]{
+        width: 140px;
+    }
+}
+
+.predator-price {
+    p {
+        width: 160px;
+        font-size: 1.2rem;
+    }
+}
+.about-product-dell {
+    transform: translateX(20%);
+}
+.product-price-dell {
+    p {
+        font-size: 1.15rem;
+    }
+    input[type=submit]{
+        width: 140px;
+    }
+}
+
+.ia-author {
+    p {
+        font-size: 1.2rem;
+    }
+    svg {
+        font-size: 1.3rem;
+    }
+    #circle {
+        margin-top: 15px;
+        width: 70px;
+        height: 70px;
+    }
+}
+.ia-author-img {
+    img {
+        width:40%;
+    }
+}
+}
+
+@media screen and (max-width:426px) {
+   
+    #pre-header-info {
+       svg {
+           margin: 0px;
+           margin-bottom: 0px;
+           margin-right: 2px;
+       }
+       ul {
+           justify-content: center;
+           padding-left: 0px;
+       }
+       li {
+            a{
+                font-size: 0.7rem!important;
+                
+            }
+        }
+
+    }
+        #pre-header-links {
+            justify-content: center!important;
+            svg {
+                margin-bottom: 15px;
+                font-size: 1rem;
+            }
+        }
+        #main-nav {
+            z-index: 1;
+            h1 {
+                a{
+                    font-size: 1.2rem;
+                }
+            }
+            #ia-hamburger-menu {
+                padding: 5px 8px;
+
+                .navbar-toggler-icon{
+                    width: 20px;
+                    height: 2px;
+                    margin: 2px 0px;
+                }
+            }
+            .ia-links-nav {
+                font-size: 0.9rem;
+            }
+        }
+        .ia-cards,.products-1{
+            .cards {
+                width: 250px;
+                height: 320px;
+                h2 {
+                    font-size: 1.1rem;
+                }
+                .price {
+                    width: 150px;
+                    h3 {
+                        font-size: 1.1rem;
+                    }
+                }
+                .info {
+                    width: 200px;
+                }
+                img {
+                    width: 80%;
+                }
+                #samsung-laptop {
+                    transform: translateX(10%);
+                }
+                #monitor {
+                    transform: translateX(8%);
+                }
+                #img-phone {
+                    img {
+                        width: 50%;
+                        transform: translateX(50%);
+                    }
+                }
+                #lenovo {
+                    img {
+                        width: 60%!important;
+                        transform: translateX(30%);
+
+                    }
+                }
+                #dell-monitor {
+                    img {
+                        width: 50%;
+                        transform: translateX(60%);
+
+                    }
+                }
+                #samsung-phone {
+                    img {
+                        width: 70%!important;
+                        transform: translateX(20%);
+                    }
+                }
+            .price-samsung {
+                    h3 {
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
+    .ia-form {
+        padding-left: 0px!important;
+        label{
+            font-size: 0.8rem;
+        }
+        input[type=submit]{
+            padding: 5px 15px;
+            margin-bottom: 50px;
+            margin-top: 10px;
+            transform: translateX(160%);
+        }
+        h3 {
+            font-size: 1.2rem;
+        }
+    }
+    
+    #wtime {
+        p{
+            font-size: 1.1rem;
+        }
+    }
+    .ia-wtime {
+        h3 {
+            font-size: 1.2rem;
+        }
+    }
+    footer {
+        a {
+            font-size: 1.1rem;
+        }  
+    }
+    #footer-end {
+        a {
+            font-size: 0.8rem;
+        }
+    }
+    .footer-products {
+        margin-top: 50px!important;
+    }
+    /*aside page*/
+    .ia-aside {
+        aside {
+            position: static!important;
+            background-color: $backgroundColor!important;
+            box-shadow: none;
+           .ia-form-filter {
+               padding-top: 5px!important;
+           }
+           .ia-aside {
+            p,label {
+                font-size: 0.8rem;
+            }
+            
+        }
+        #ia-btn-form {
+            width: 70px;
+            font-size: 0.8rem;
+            transform: translateX(10%);
+        }
+        input[type=range]{
+            width: 80px;
+        }
+        .ia-collapse {
+            p {
+                margin-top: 15px!important;
+                text-align: center;
+                width: 50px;
+            }
+            p,label {
+                font-size: 0.7rem;
+            }
+        }
+        .ia-form-filter {
+            margin-left: 0px!important;
+        }
+        .ia-filter-icon{
+            width: 40px;
+            height: 30px;
+        }
+    }
+    }
+    .products-1 {
+        position: absolute;
+        top: 150px;
+
+        .ia-ml-mr {
+            margin-top: 20px!important;
+        }
+        .cards {
+            width: 200px;
+            height: 270px;
+            h2 {
+                font-size: 0.9rem;
+            }
+        .price {
+            width: 120px;
+            h3 {
+                font-size: 0.9rem;
+            }
+        }
+        .info {
+            width: 170px;
+        }
+        #lenovo {
+            img {
+                width: 50% !important;
+                transform: translateX(50%);
+            }
+        }
+        #samsung-laptop {
+            img {
+                transform: translateX(3%);
+            }
+        }
+        }
+        .ia-mt{
+            margin-top: 80px;
+        }
+        .ia-ml-mr {
+            margin-right: 0px;
+        }
+    .ia-dell {
+            img {
+                margin-top:10px!important;
+                transform: translateX(55%)!important;
+            }       
+    }
+    .ia-predator-mon {
+        img {
+            margin-top:10px ;
+            transform: translateX(0%)!important;
+        }
+        h2 {
+            margin: 15px auto;
+        }
+    }
+    .ia-phone-iphone {
+        img {
+            transform: translateX(70%);
+            width: 40%;
+            
+        }
+    }
+    }
+.product-img,.about-product,.product-price {
+        margin-top: 25px;
+    }
+    .info-specifications{
+        h2 {
+            font-size: 1.2rem;
+            width: 50%;
+            margin: 0px auto;
+        }
+    }
+
+.about-product {
+    table {
+        transform: translateX(-20%);
+    }
+}
+.product-price {
+    margin-top: 45px;
+    p{
+        font-size: 1.2rem;
+        width: 145px;
+    }
+    input[type=number]{
+        display: block;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+}
+.product-footer {
+    margin-top: 100px;
+}
+
+.about-product-lenovo {
+    transform: translateX(-7%);
+}
+.product-price-lenovo {
+    transform: translateX(5%);
+}
+.about-product-samsung {
+    table {
+        tr {
+            td {
+                font-size: 0.85rem;
+            }
+        }
+    }
+    transform: translateX(-20%);
+}
+.product-price-samsung {
+    transform: translateX(4%);
+    input[type=submit],p{
+        width: 100px;
+        font-size: 0.8rem;
+        display: flex;
+    }
+   input[type=number] {
+        margin-left: 20px;
+   }
+   
+    
+}
+
+.product-price-iphone{
+    input[type= submit]{
+        font-size: 0.8rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    
+}
+
+.predator-price {
+    p{
+        font-size: 1rem;
+    }
+    input[type=submit]{
+        width: 145px;
+        font-size: 1rem;
+    }
+    input[type=number]{
+        margin-left: 45px;
+    }
+}
+
+.about-predator {
+    transform: translateX(-30%);
+    table {
+        tr {
+            td{
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+.about-product-dell {
+    transform: translateX(-25%);
+    table {
+        tr {
+            td{
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+.product-price-dell {
+    p {
+        font-size: 1rem;
+    }
+}
+
+.ia-author {
+    p {
+        font-size: 0.9rem;
+    }
+    svg {
+        font-size: 1rem;
+    }
+    #circle {
+        margin-top: 30px;
+        width: 50px;
+        height: 50px;
+        right: 7%;
+    }
+}
+.ia-author-img {
+    img {
+        width:40%;
+    }
+}
+}
+
+@media screen and (max-width:376px) {
+      #main-nav {
+        h1 {
+            a{
+                font-size: 1.2rem;
+            }
+        }
+        #nav-button {
+            button {
+                background-color: red;
+                padding: 1px 3px;
+            }
+        }
+    }
+
+    .ia-cards{
+        .cards {
+            
+            height: 290px;
+            width: 210px;
+            h2 {
+                font-size: 1rem;
+            }
+        }
+       
+    }
+   
+    .ia-form{
+        input[type=text],input[type=email] {
+            width: 250px;
+        }
+        textarea {
+            width: 250px;
+        }
+        input[type=submit]{
+            transform: translateX(150%);
+            padding: 3px 10px;
+            font-size: 0.8rem;
+        }
+    }
+    #wtime {
+        p{
+            font-size: 1rem;
+        }
+    }
+    .ia-wtime {
+        h3 {
+            font-size: 1.1rem;
+        }
+    }
+    footer {
+        a {
+            font-size: 1rem;
+        }  
+    }
+    #footer-end {
+        a {
+            font-size: 0.7rem;
+        }
+    }
+    .footer-products {
+        margin-top: 0px!important;
+        .ia-mt-footer {
+            margin-top: 0px!important;
+        }
+    }
+
+    .products-1 {
+        .cards{
+            width: 150px;
+            height: 220px;
+            h2 {
+                font-size: 0.7rem;
+            }
+            .price {
+                width: 100px;
+                h3 {
+                    font-size: 0.8rem;
+                }
+            }
+            .info {
+                width: 120px;
+            }
+        #samsung-laptop{
+            img {
+                transform: translateX(5%);
+            }
+        }
+        }
+    }
+
+    .about-product {
+        table {
+            transform: translateX(-30%);
+            tr {
+                td{
+                    font-size: 0.85rem;
+                }
+            }
+        }
+    }
+.product-price {
+        p{
+            font-size: 1rem;
+            width: 115px;
+        }
+       input[type=submit]{
+           width: 115px;
+           font-size: 0.9rem;
+           display: flex;
+           text-align: center;
+       }
+    }
+    .about-product-samsung {
+        transform: translateX(2%);
+    }
+
+    .product-price-samsung {
+        input[type=submit],p {
+            font-size: 0.8rem;
+            width: 100px;
+        }
+    }
+    .product-price-iphone{
+        transform: translateX(0%);
+        input[type= submit]{
+            font-size: 0.8rem;
+            width: 100px;
+            display: flex;
+        }
+        p {
+            width: 100px;
+            font-size: 0.8rem!important;
+        }
+        
+    }
+
+    .predator-price {
+        p {
+            font-size: 0.9rem;
+        }
+        input[type=submit]{
+            font-size: 0.8rem;
+            display: flex;
+        }
+        input[type=number]{
+            margin-left: 30px;
+        }
+    }
+.about-predator {
+    transform: translateX(-10%);
+}
+.about-product-dell {
+    transform: translateX(-10%);
+}
+.product-price-dell {
+    input[type=submit]{
+        display: flex;
+        font-size: 0.8rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+.ia-author {
+    height: 260px;
+    p {
+        font-size: 0.8rem;
+    }
+    svg {
+        font-size: 1rem;
+    }
+    #circle {
+        margin-top: 15px;
+        width: 50px;
+        height: 50px;
+    }
+}
+.ia-author-img {
+    img {
+        width:50%;
+    }
+}
+
+}
+
+

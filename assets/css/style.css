@@ -1,0 +1,1301 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 1441px) {
+  .ia-author #circle {
+    right: 10%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  #main-nav {
+    padding: 10px 50px;
+  }
+  .ia-cards {
+    padding-left: 0px;
+  }
+  .ia-cards .cards {
+    width: 290px;
+  }
+  .ia-cards .cards .price-samsung h3 {
+    margin-top: 52px;
+  }
+  .ia-cards #samsung-phone img {
+    width: 80%;
+    margin-bottom: 25px;
+    -webkit-transform: translateX(10%);
+            transform: translateX(10%);
+  }
+  .samsung-phone h2 {
+    padding: 3px 0px;
+  }
+  aside {
+    width: 22%;
+  }
+  aside #ia-btn-form {
+    -webkit-transform: translateX(25%);
+            transform: translateX(25%);
+  }
+  aside input[type=range] {
+    width: 120px;
+  }
+  .products-1 .cards {
+    width: 270px;
+    height: 400px;
+  }
+  .products-1 .cards img {
+    width: 90%;
+  }
+  .products-1 .cards h2 {
+    font-size: 1.3rem;
+  }
+  .products-1 .cards .price {
+    width: 170px;
+  }
+  .products-1 .cards .price h3 {
+    font-size: 1.4rem;
+  }
+  .products-1 .cards .info {
+    width: 250px;
+  }
+  .products-1 .cards #samsung-laptop img {
+    -webkit-transform: translateX(7%);
+            transform: translateX(7%);
+  }
+  .products-1 .cards #lenovo img {
+    width: 60% !important;
+    margin: 20px 0px;
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
+  }
+  .products-1 .ia-phone-iphone img {
+    width: 50%;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+  .product-img-sams img {
+    width: 65%;
+  }
+  .product-price-iphone {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  .dell-monitor img {
+    width: 60%;
+  }
+  .ia-author #circle {
+    right: 10%;
+    width: 90px;
+    height: 90px;
+  }
+  .ia-author p {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  #nav-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  #nav-button button {
+    background-color: red;
+    padding: 4px 8px;
+  }
+  #main-nav #ia-hamburger-menu {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #main-nav #ia-hamburger-menu .navbar-toggler-icon {
+    background-color: white;
+    width: 25px;
+    margin: 3px 0px;
+    height: 3px;
+  }
+  .ia-cards, .products-1 {
+    margin: 0px !important;
+  }
+  .ia-cards .cards, .products-1 .cards {
+    height: 400px;
+    margin: 10px auto !important;
+  }
+  .ia-cards .cards h2, .products-1 .cards h2 {
+    font-size: 1.3rem;
+  }
+  .ia-cards .cards .price, .products-1 .cards .price {
+    width: 170px;
+  }
+  .ia-cards .cards .price h3, .products-1 .cards .price h3 {
+    font-size: 1.3rem;
+  }
+  .ia-cards .cards .info, .products-1 .cards .info {
+    width: 250px;
+  }
+  .ia-cards .cards .info img, .products-1 .cards .info img {
+    margin-top: 10px !important;
+  }
+  .ia-cards .cards .price-samsung h3, .products-1 .cards .price-samsung h3 {
+    margin-top: 30px;
+  }
+  .ia-form {
+    padding-right: 0px !important;
+    padding-left: 35px !important;
+  }
+  /*Laptop Page*/
+  aside {
+    width: 200px;
+  }
+  aside input[type=range] {
+    width: 120px;
+  }
+  aside #ia-btn-form {
+    -webkit-transform: translateX(20%);
+            transform: translateX(20%);
+  }
+  aside .ia-aside {
+    margin-left: 0px !important;
+  }
+  .products-1 .cards {
+    margin-top: 50px;
+    width: 240px;
+    height: 350px;
+  }
+  .products-1 .cards h2 {
+    font-size: 1.1rem;
+  }
+  .products-1 .cards .price {
+    width: 150px;
+  }
+  .products-1 .cards .price h3 {
+    font-size: 1.1rem;
+    margin-top: 30px;
+  }
+  .products-1 .cards .info {
+    width: 200px;
+  }
+  .products-1 .ia-ml-mr {
+    margin-left: 90px;
+    margin-right: 40px;
+  }
+  .products-1 .ia-mt {
+    margin-top: 50px;
+  }
+  .products-1 .ia-predator-mon h2 {
+    margin: 25px auto;
+  }
+  .products-1 .ia-dell img {
+    -webkit-transform: translateX(40%) !important;
+            transform: translateX(40%) !important;
+    width: 65% !important;
+    margin: 0px !important;
+  }
+  .about-product table tr td {
+    font-size: 1.1rem;
+  }
+  .product-price p {
+    width: 140px;
+    height: 40px;
+    font-size: 1.3rem;
+  }
+  .about-product-lenovo {
+    -webkit-transform: translateX(20%);
+            transform: translateX(20%);
+  }
+  .product-price-lenovo {
+    -webkit-transform: translateX(-25%);
+            transform: translateX(-25%);
+  }
+  .product-price-lenovo input[type=submit] {
+    width: 140px;
+  }
+  .product-price-lenovo p {
+    font-size: 1.1rem;
+  }
+  .product-img-sams img {
+    width: 65%;
+  }
+  .about-product-samsung {
+    -webkit-transform: translateX(20%);
+            transform: translateX(20%);
+  }
+  .product-price-samsung {
+    -webkit-transform: translateX(-30px);
+            transform: translateX(-30px);
+  }
+  .product-price-samsung input[type=number] {
+    display: block !important;
+  }
+  .product-price-samsung input[type=submit] {
+    width: 140px;
+  }
+  .product-price-iphone p {
+    font-size: 1rem;
+  }
+  .product-price-iphone input[type=submit] {
+    width: 140px;
+  }
+  .predator-price p {
+    width: 160px;
+    font-size: 1.2rem;
+  }
+  .about-product-dell {
+    -webkit-transform: translateX(20%);
+            transform: translateX(20%);
+  }
+  .product-price-dell p {
+    font-size: 1.15rem;
+  }
+  .product-price-dell input[type=submit] {
+    width: 140px;
+  }
+  .ia-author p {
+    font-size: 1.2rem;
+  }
+  .ia-author svg {
+    font-size: 1.3rem;
+  }
+  .ia-author #circle {
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+  }
+  .ia-author-img img {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  #pre-header-info svg {
+    margin: 0px;
+    margin-bottom: 0px;
+    margin-right: 2px;
+  }
+  #pre-header-info ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 0px;
+  }
+  #pre-header-info li a {
+    font-size: 0.7rem !important;
+  }
+  #pre-header-links {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  #pre-header-links svg {
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  #main-nav {
+    z-index: 1;
+  }
+  #main-nav h1 a {
+    font-size: 1.2rem;
+  }
+  #main-nav #ia-hamburger-menu {
+    padding: 5px 8px;
+  }
+  #main-nav #ia-hamburger-menu .navbar-toggler-icon {
+    width: 20px;
+    height: 2px;
+    margin: 2px 0px;
+  }
+  #main-nav .ia-links-nav {
+    font-size: 0.9rem;
+  }
+  .ia-cards .cards, .products-1 .cards {
+    width: 250px;
+    height: 320px;
+  }
+  .ia-cards .cards h2, .products-1 .cards h2 {
+    font-size: 1.1rem;
+  }
+  .ia-cards .cards .price, .products-1 .cards .price {
+    width: 150px;
+  }
+  .ia-cards .cards .price h3, .products-1 .cards .price h3 {
+    font-size: 1.1rem;
+  }
+  .ia-cards .cards .info, .products-1 .cards .info {
+    width: 200px;
+  }
+  .ia-cards .cards img, .products-1 .cards img {
+    width: 80%;
+  }
+  .ia-cards .cards #samsung-laptop, .products-1 .cards #samsung-laptop {
+    -webkit-transform: translateX(10%);
+            transform: translateX(10%);
+  }
+  .ia-cards .cards #monitor, .products-1 .cards #monitor {
+    -webkit-transform: translateX(8%);
+            transform: translateX(8%);
+  }
+  .ia-cards .cards #img-phone img, .products-1 .cards #img-phone img {
+    width: 50%;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+  .ia-cards .cards #lenovo img, .products-1 .cards #lenovo img {
+    width: 60% !important;
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
+  }
+  .ia-cards .cards #dell-monitor img, .products-1 .cards #dell-monitor img {
+    width: 50%;
+    -webkit-transform: translateX(60%);
+            transform: translateX(60%);
+  }
+  .ia-cards .cards #samsung-phone img, .products-1 .cards #samsung-phone img {
+    width: 70% !important;
+    -webkit-transform: translateX(20%);
+            transform: translateX(20%);
+  }
+  .ia-cards .cards .price-samsung h3, .products-1 .cards .price-samsung h3 {
+    margin-top: 15px;
+  }
+  .ia-form {
+    padding-left: 0px !important;
+  }
+  .ia-form label {
+    font-size: 0.8rem;
+  }
+  .ia-form input[type=submit] {
+    padding: 5px 15px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    -webkit-transform: translateX(160%);
+            transform: translateX(160%);
+  }
+  .ia-form h3 {
+    font-size: 1.2rem;
+  }
+  #wtime p {
+    font-size: 1.1rem;
+  }
+  .ia-wtime h3 {
+    font-size: 1.2rem;
+  }
+  footer a {
+    font-size: 1.1rem;
+  }
+  #footer-end a {
+    font-size: 0.8rem;
+  }
+  .footer-products {
+    margin-top: 50px !important;
+  }
+  /*aside page*/
+  .ia-aside aside {
+    position: static !important;
+    background-color: #212121 !important;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .ia-aside aside .ia-form-filter {
+    padding-top: 5px !important;
+  }
+  .ia-aside aside .ia-aside p, .ia-aside aside .ia-aside label {
+    font-size: 0.8rem;
+  }
+  .ia-aside aside #ia-btn-form {
+    width: 70px;
+    font-size: 0.8rem;
+    -webkit-transform: translateX(10%);
+            transform: translateX(10%);
+  }
+  .ia-aside aside input[type=range] {
+    width: 80px;
+  }
+  .ia-aside aside .ia-collapse p {
+    margin-top: 15px !important;
+    text-align: center;
+    width: 50px;
+  }
+  .ia-aside aside .ia-collapse p, .ia-aside aside .ia-collapse label {
+    font-size: 0.7rem;
+  }
+  .ia-aside aside .ia-form-filter {
+    margin-left: 0px !important;
+  }
+  .ia-aside aside .ia-filter-icon {
+    width: 40px;
+    height: 30px;
+  }
+  .products-1 {
+    position: absolute;
+    top: 150px;
+  }
+  .products-1 .ia-ml-mr {
+    margin-top: 20px !important;
+  }
+  .products-1 .cards {
+    width: 200px;
+    height: 270px;
+  }
+  .products-1 .cards h2 {
+    font-size: 0.9rem;
+  }
+  .products-1 .cards .price {
+    width: 120px;
+  }
+  .products-1 .cards .price h3 {
+    font-size: 0.9rem;
+  }
+  .products-1 .cards .info {
+    width: 170px;
+  }
+  .products-1 .cards #lenovo img {
+    width: 50% !important;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+  .products-1 .ia-mt {
+    margin-top: 80px;
+  }
+  .products-1 .ia-ml-mr {
+    margin-right: 0px;
+  }
+  .products-1 .ia-dell img {
+    margin-top: 10px !important;
+    -webkit-transform: translateX(55%) !important;
+            transform: translateX(55%) !important;
+  }
+  .products-1 .ia-predator-mon img {
+    margin-top: 10px;
+    -webkit-transform: translateX(0%) !important;
+            transform: translateX(0%) !important;
+  }
+  .products-1 .ia-predator-mon h2 {
+    margin: 15px auto;
+  }
+  .products-1 .ia-phone-iphone img {
+    -webkit-transform: translateX(70%);
+            transform: translateX(70%);
+    width: 40%;
+  }
+  .product-img, .about-product, .product-price {
+    margin-top: 25px;
+  }
+  .info-specifications h2 {
+    font-size: 1.2rem;
+    width: 50%;
+    margin: 0px auto;
+  }
+  .about-product table {
+    -webkit-transform: translateX(-20%);
+            transform: translateX(-20%);
+  }
+  .product-price {
+    margin-top: 45px;
+  }
+  .product-price p {
+    font-size: 1.2rem;
+    width: 145px;
+  }
+  .product-price input[type=number] {
+    display: block;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .product-footer {
+    margin-top: 100px;
+  }
+  .about-product-lenovo {
+    -webkit-transform: translateX(-7%);
+            transform: translateX(-7%);
+  }
+  .product-price-lenovo {
+    -webkit-transform: translateX(5%);
+            transform: translateX(5%);
+  }
+  .about-product-samsung {
+    -webkit-transform: translateX(-20%);
+            transform: translateX(-20%);
+  }
+  .about-product-samsung table tr td {
+    font-size: 0.85rem;
+  }
+  .product-price-samsung {
+    -webkit-transform: translateX(4%);
+            transform: translateX(4%);
+  }
+  .product-price-samsung input[type=submit], .product-price-samsung p {
+    width: 100px;
+    font-size: 0.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .product-price-samsung input[type=number] {
+    margin-left: 20px;
+  }
+  .product-price-iphone input[type=submit] {
+    font-size: 0.8rem;
+  }
+  .product-price-iphone p {
+    font-size: 1rem;
+  }
+  .predator-price p {
+    font-size: 1rem;
+  }
+  .predator-price input[type=submit] {
+    width: 145px;
+    font-size: 1rem;
+  }
+  .predator-price input[type=number] {
+    margin-left: 45px;
+  }
+  .about-predator {
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
+  }
+  .about-predator table tr td {
+    font-size: 0.9rem;
+  }
+  .about-product-dell {
+    -webkit-transform: translateX(-25%);
+            transform: translateX(-25%);
+  }
+  .about-product-dell table tr td {
+    font-size: 0.9rem;
+  }
+  .product-price-dell p {
+    font-size: 1rem;
+  }
+  .ia-author p {
+    font-size: 0.9rem;
+  }
+  .ia-author svg {
+    font-size: 1rem;
+  }
+  .ia-author #circle {
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+    right: 7%;
+  }
+  .ia-author-img img {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  #main-nav h1 a {
+    font-size: 1.2rem;
+  }
+  #main-nav #nav-button button {
+    background-color: red;
+    padding: 1px 3px;
+  }
+  .ia-cards .cards {
+    height: 290px;
+    width: 210px;
+  }
+  .ia-cards .cards h2 {
+    font-size: 1rem;
+  }
+  .ia-form input[type=text], .ia-form input[type=email] {
+    width: 250px;
+  }
+  .ia-form textarea {
+    width: 250px;
+  }
+  .ia-form input[type=submit] {
+    -webkit-transform: translateX(150%);
+            transform: translateX(150%);
+    padding: 3px 10px;
+    font-size: 0.8rem;
+  }
+  #wtime p {
+    font-size: 1rem;
+  }
+  .ia-wtime h3 {
+    font-size: 1.1rem;
+  }
+  footer a {
+    font-size: 1rem;
+  }
+  #footer-end a {
+    font-size: 0.7rem;
+  }
+  .footer-products {
+    margin-top: 0px !important;
+  }
+  .footer-products .ia-mt-footer {
+    margin-top: 0px !important;
+  }
+  .products-1 .cards {
+    width: 150px;
+    height: 220px;
+  }
+  .products-1 .cards h2 {
+    font-size: 0.7rem;
+  }
+  .products-1 .cards .price {
+    width: 100px;
+  }
+  .products-1 .cards .price h3 {
+    font-size: 0.8rem;
+  }
+  .products-1 .cards .info {
+    width: 120px;
+  }
+  .products-1 .cards #samsung-laptop img {
+    -webkit-transform: translateX(5%);
+            transform: translateX(5%);
+  }
+  .about-product table {
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
+  }
+  .about-product table tr td {
+    font-size: 0.85rem;
+  }
+  .product-price p {
+    font-size: 1rem;
+    width: 115px;
+  }
+  .product-price input[type=submit] {
+    width: 115px;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+  }
+  .about-product-samsung {
+    -webkit-transform: translateX(2%);
+            transform: translateX(2%);
+  }
+  .product-price-samsung input[type=submit], .product-price-samsung p {
+    font-size: 0.8rem;
+    width: 100px;
+  }
+  .product-price-iphone {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  .product-price-iphone input[type=submit] {
+    font-size: 0.8rem;
+    width: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .product-price-iphone p {
+    width: 100px;
+    font-size: 0.8rem !important;
+  }
+  .predator-price p {
+    font-size: 0.9rem;
+  }
+  .predator-price input[type=submit] {
+    font-size: 0.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .predator-price input[type=number] {
+    margin-left: 30px;
+  }
+  .about-predator {
+    -webkit-transform: translateX(-10%);
+            transform: translateX(-10%);
+  }
+  .about-product-dell {
+    -webkit-transform: translateX(-10%);
+            transform: translateX(-10%);
+  }
+  .product-price-dell input[type=submit] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.8rem;
+  }
+  .product-price-dell p {
+    font-size: 0.9rem;
+  }
+  .ia-author {
+    height: 260px;
+  }
+  .ia-author p {
+    font-size: 0.8rem;
+  }
+  .ia-author svg {
+    font-size: 1rem;
+  }
+  .ia-author #circle {
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+  }
+  .ia-author-img img {
+    width: 50%;
+  }
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+
+body {
+  background-color: #212121 !important;
+  font-size: 16px;
+  font-family: "Inter", sans-serif !important;
+}
+
+.ia-text-red {
+  color: #BC0A0A;
+}
+
+.ia-bg-red {
+  background-color: #BC0A0A;
+}
+
+.ia-bg-black {
+  background-color: #000;
+}
+
+.ia-bg-darkGrey {
+  background-color: #1B1B1B;
+}
+
+/*Pre header*/
+#pre-header-info li a {
+  color: #000;
+  -webkit-transition: .7s;
+  transition: .7s;
+  font-size: 0.9rem;
+  margin-left: 0px !important;
+}
+
+#pre-header-info li :hover {
+  color: #fff;
+}
+
+#pre-header-info svg {
+  margin-right: 5px;
+}
+
+#pre-header-links li a {
+  color: #000;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#pre-header-links li a :hover {
+  color: #fff;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+/*Main nav*/
+#main-nav {
+  -webkit-box-shadow: 0px -1px 5px 3px #000;
+          box-shadow: 0px -1px 5px 3px #000;
+}
+
+#main-nav h1 {
+  font-family: "IBM Plex Serif", serif !important;
+}
+
+#main-nav h1 a {
+  margin-bottom: 5px;
+  font-size: 2.3rem;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#main-nav h1 :hover {
+  color: #BC0A0A !important;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#main-nav ul li :hover {
+  color: #BC0A0A !important;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#main-nav #ia-btn-outline {
+  border: 1px solid red !important;
+}
+
+/*Slider*/
+.ia-slider {
+  width: 70%;
+  margin: 50px auto;
+  border-radius: 50%;
+}
+
+.ia-slider .my-slider {
+  border-radius: 4%;
+}
+
+.ia-slider .my-slider img {
+  border-radius: 4%;
+}
+
+.ia-slider .my-slider .ia-img-2 {
+  width: 100%;
+}
+
+/*Cards*/
+.ia-cards {
+  margin: 150px 0px !important;
+  padding-left: 80px;
+}
+
+.ia-cards .cards {
+  border-radius: 10px;
+  width: 330px;
+  height: 470px;
+  border: 1px solid #BC0A0A;
+  -webkit-box-shadow: 0px 0px 30px 8px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 30px 8px rgba(0, 0, 0, 0.75);
+}
+
+.ia-cards .cards img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.ia-cards .cards h2 {
+  color: #fff;
+  width: 80%;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.ia-cards .cards .price {
+  background-color: #BC0A0A;
+  width: 200px;
+  margin: 0px auto;
+  border-radius: 5px;
+}
+
+.ia-cards .cards .price h3 {
+  margin-top: 35px;
+  color: #000;
+  text-align: center;
+}
+
+.ia-cards .cards .info {
+  text-align: center;
+  margin: 0px auto;
+  width: 300px;
+}
+
+.ia-cards .cards .info img {
+  width: 20%;
+}
+
+.ia-cards .cards #monitor img {
+  margin-top: 32px;
+}
+
+.ia-cards .ia-lenovo {
+  margin-top: 45px;
+}
+
+.ia-cards #lenovo img {
+  -webkit-transform: translateX(15%);
+          transform: translateX(15%);
+  margin: 17px 0px;
+}
+
+.ia-cards #dell-monitor img {
+  margin-top: 10px;
+  width: 65%;
+  -webkit-transform: translateX(30%);
+          transform: translateX(30%);
+}
+
+.ia-cards #img-phone img {
+  width: 60%;
+  -webkit-transform: translateX(25%);
+          transform: translateX(25%);
+  margin: 10px 0px;
+}
+
+.ia-cards #samsung-phone img {
+  width: 90%;
+  -webkit-transform: translateX(5%);
+          transform: translateX(5%);
+}
+
+/*Footer*/
+input[type=text], input[type=email] {
+  width: 350px;
+  margin: 10px 0px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #BC0A0A;
+  color: #fff;
+}
+
+textarea {
+  margin: 5px 0px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #BC0A0A;
+  width: 350px;
+  height: 150px;
+  color: #fff;
+}
+
+input[type=submit] {
+  color: #fff;
+  border: 1px solid #BC0A0A;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background-color: #BC0A0A;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+#wtime p {
+  font-size: 1.2rem;
+}
+
+footer a {
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+#footer-end {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#footer-end p {
+  margin-bottom: 0px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#footer-end p a:hover {
+  color: #000;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#footer-end a {
+  color: #fff;
+  font-size: 1.1rem;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#footer-end a svg :hover {
+  color: #000;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+/*aside Page*/
+aside {
+  width: 18%;
+  height: 800px;
+  -webkit-box-shadow: 0px -1px 5px 3px #000;
+          box-shadow: 0px -1px 5px 3px #000;
+  border-radius: 0px 0px 10px 10px;
+}
+
+aside .ia-filter-icon {
+  background-image: url(../images/filter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+
+aside input[type=range] {
+  width: 200px;
+}
+
+aside #ia-btn-form {
+  border: 1px solid #BC0A0A;
+  -webkit-transform: translateX(70%);
+          transform: translateX(70%);
+}
+
+aside #ia-btn-form:hover {
+  background-color: #BC0A0A;
+  border: 1px solid #212121;
+}
+
+.footer-products {
+  margin-top: 400px;
+}
+
+.products-1 .cards {
+  border-radius: 10px;
+  width: 330px;
+  height: 470px;
+  border: 1px solid #BC0A0A;
+  -webkit-box-shadow: 0px 0px 30px 8px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 30px 8px rgba(0, 0, 0, 0.75);
+}
+
+.products-1 .cards img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.products-1 .cards h2 {
+  color: #fff;
+  width: 80%;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.products-1 .cards .price {
+  background-color: #BC0A0A;
+  width: 200px;
+  margin: 0px auto;
+  border-radius: 5px;
+}
+
+.products-1 .cards .price h3 {
+  margin-top: 35px;
+  color: #000;
+  text-align: center;
+}
+
+.products-1 .cards .info {
+  text-align: center;
+  margin: 0px auto;
+  width: 300px;
+}
+
+.products-1 .cards .info img {
+  width: 20%;
+}
+
+.products-1 .cards #monitor img {
+  margin-top: 32px;
+}
+
+.products-1 .ia-lenovo, .products-1 .ia-samsung-laptop {
+  margin-top: 45px;
+}
+
+.products-1 #lenovo img {
+  -webkit-transform: translateX(15%);
+          transform: translateX(15%);
+  margin: 17px 0px;
+}
+
+.products-1 #dell-monitor img {
+  margin-top: 10px;
+  width: 65%;
+  -webkit-transform: translateX(30%);
+          transform: translateX(30%);
+}
+
+.products-1 #img-phone img {
+  width: 60%;
+  -webkit-transform: translateX(25%);
+          transform: translateX(25%);
+  margin: 10px 0px;
+}
+
+.products-1 .ia-ml-mr {
+  margin-left: 110px;
+  margin-right: 90px;
+}
+
+.products-1 .ia-predator-mon h2 {
+  margin: 30px auto;
+}
+
+.products-1 .ia-dell img {
+  -webkit-transform: translateX(30%) !important;
+          transform: translateX(30%) !important;
+  width: 65% !important;
+  margin: 0px !important;
+}
+
+.products-1 .ia-phone-iphone img {
+  margin: 10px 0px;
+  width: 55%;
+  -webkit-transform: translateX(40%);
+          transform: translateX(40%);
+}
+
+.products-1 .ia-phone-iphone .info img {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+/*Products Main*/
+.product-img, .about-product, .product-price {
+  margin-top: 50px;
+}
+
+.product-img img {
+  width: 80%;
+}
+
+.product-img-lenovo img {
+  margin-top: 30px;
+  width: 60%;
+}
+
+.info-specifications h2 {
+  text-align: center;
+}
+
+.about-product table tr td {
+  font-size: 1.2rem;
+}
+
+.product-price p {
+  width: 160px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.4rem;
+  border-radius: 5px;
+}
+
+.product-price input[type=number] {
+  width: 50px;
+  height: 30px;
+  margin-left: 10px;
+  background-color: #1B1B1B;
+  border: 1px solid #BC0A0A;
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.product-price input[type=submit] {
+  width: 160px;
+}
+
+.product-price-lenovo {
+  -webkit-transform: translateX(-60px);
+          transform: translateX(-60px);
+}
+
+.product-footer {
+  margin-top: 200px;
+}
+
+.product-img-sams img, .product-img-lenovo img, .product-img img {
+  border-radius: 5%;
+}
+
+.product-img-sams img {
+  width: 75%;
+}
+
+.product-img-iphone img {
+  width: 40%;
+}
+
+.about-product-iphone {
+  -webkit-transform: translateX(-15%);
+          transform: translateX(-15%);
+}
+
+.predatord-img img {
+  width: 80%;
+}
+
+.dell-monitor img {
+  width: 75%;
+}
+
+.ia-author {
+  width: 80%;
+  height: 300px;
+  margin: 30px 0px;
+  border: 1px solid #BC0A0A;
+  -webkit-box-shadow: 0px 0px 30px 8px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 30px 8px rgba(0, 0, 0, 0.75);
+}
+
+.ia-author #circle {
+  position: absolute;
+  right: 20%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #BC0A0A;
+}
+
+.ia-author p {
+  font-size: 1.6rem;
+  padding: 10px;
+}
+
+.ia-author #name a {
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+.ia-author #name a:hover {
+  color: #fff;
+}
+
+.ia-author svg {
+  font-size: 1.6rem;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.ia-author svg:hover {
+  color: #BC0A0A;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.ia-author-img img {
+  width: 25%;
+}
+/*# sourceMappingURL=style.css.map */

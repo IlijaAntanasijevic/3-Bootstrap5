@@ -1,0 +1,567 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@import "var.scss";
+@import "responsive.scss";
+
+li {
+    a{
+        text-decoration: none;
+        color: $white;
+    }
+    
+}
+ul {
+    list-style-type:none ;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    
+}
+::-webkit-scrollbar-thumb {
+    background-color: $black;
+}
+
+body {
+    background-color: $backgroundColor!important;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif!important;
+}
+.ia-text-red {
+    color: $redPrimary;
+}
+.ia-bg-red {
+    background-color: $redPrimary;
+}
+.ia-bg-black {
+    background-color: $black;
+}
+.ia-bg-darkGrey {
+    background-color: $darkGrey;
+}
+
+ 
+/*Pre header*/  
+#pre-header-info {
+    li {
+        a{
+            color: $black;
+            transition: .7s;
+            font-size: 0.9rem;
+            margin-left: 0px!important;
+            
+        }
+        :hover {
+            color: $white;
+        }
+    }
+    svg{
+        margin-right: 5px;
+    }
+}
+#pre-header-links {
+    li {
+        a{
+            color: $black;
+            transition: .7s; 
+            :hover {
+                color: $white;
+                transition: .7s; 
+            }
+        }
+       
+   
+    }
+}
+/*Main nav*/
+#main-nav {
+    box-shadow: 0px -1px 5px 3px $black;
+    h1 {
+        font-family: 'IBM Plex Serif', serif!important;
+
+        a {
+            margin-bottom: 5px;
+            font-size: 2.3rem;
+            transition: .7s;
+        }
+        
+        :hover {
+            color: $redPrimary!important;
+            transition: .7s;
+        }
+    }
+    ul {
+        li {
+            :hover {
+                color: $redPrimary!important;
+                transition: .7s;
+            }
+        }
+       
+    }
+    #ia-btn-outline {
+        border: 1px solid red!important;
+    }
+}
+
+/*Slider*/
+.ia-slider {
+    width: 70%;
+    margin: 50px auto;
+    border-radius: 50%;
+
+    .my-slider{
+        border-radius: 4%;
+        img {
+            border-radius: 4%;
+        }
+        .ia-img-2 {
+            width: 100%;
+            
+        }
+    }
+
+}
+
+/*Cards*/
+.ia-cards{
+    margin: 150px 0px!important;
+    padding-left: 80px;
+    
+    .cards {
+        border-radius: 10px;
+        width: 330px;
+        height: 470px;
+        border: 1px solid $redPrimary;
+        box-shadow: 0px 0px 30px 8px rgba(0,0,0,0.75);
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        h2 {
+            color: $white;
+            width: 80%;
+            font-size: 1.5rem;
+            text-transform: capitalize;
+            margin: 0px auto;
+            text-align: center;
+        }
+        .price {
+            background-color: $redPrimary;
+            width: 200px;
+            margin: 0px auto;
+            border-radius: 5px;
+                h3 {
+                    margin-top:35px;
+                    color:$black;
+                    text-align: center;
+                }
+        }
+        .info {
+            text-align: center;
+            margin: 0px auto;
+            width: 300px;
+                img {
+                    width: 20%;
+                }
+        }
+        #monitor {
+            img {
+                margin-top: 32px;
+            }
+        }     
+    }
+    .ia-lenovo {
+        margin-top: 45px;
+    }
+        #lenovo {
+            img{
+                transform: translateX(15%);
+                margin: 17px 0px;
+            }
+        }
+        #dell-monitor {
+            img {
+                margin-top: 10px;
+                width: 65%;
+                transform: translateX(30%);
+            }
+        }
+            #img-phone{
+                img {
+                    width: 60%;
+                    transform: translateX(25%);
+                    margin: 10px 0px;
+                }
+            }
+        #samsung-phone {
+            img {
+                width: 90%;
+                transform: translateX(5%);
+            }
+        }
+      
+}
+
+/*Footer*/
+input[type=text],input[type=email] {
+    width: 350px;
+    margin: 10px 0px;
+    border: none; 
+    background-color: rgba(0,0,0,0);
+    border-bottom: 1px solid $redPrimary;
+    color: $white;
+}
+
+textarea {
+    margin: 5px 0px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid $redPrimary;
+    width: 350px;
+    height: 150px;
+    color: $white;
+}
+
+input[type=submit]{
+    color: $white;
+    border: 1px solid $redPrimary;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: $redPrimary;
+    transition: .7s;
+}
+input[type=submit]:hover {
+    background-color: rgba(0,0,0,0);
+    transition: .7s;
+}
+
+#wtime {
+    p {
+        font-size: 1.2rem;
+    }
+}
+
+footer {
+    a {
+        font-size: 1.3rem;
+        text-decoration: none;
+    }  
+  
+}
+
+#footer-end {
+    width: 100%;
+    text-align: center;
+    color: $white;
+    p {
+        margin-bottom: 0px;
+        transition: .5s;
+        
+        a:hover {
+            color: $black;
+            transition: .5s;
+        }
+
+    }
+    a {
+        color: $white;
+        font-size: 1.1rem;
+        transition: .5s;
+        svg {
+            :hover{
+                color: $black;
+                transition: .5s;
+            }
+        }
+       
+    }
+    
+}
+
+/*aside Page*/
+
+aside {
+    width: 18%;
+    height: 800px;
+    box-shadow: 0px -1px 5px 3px $black;
+    border-radius: 0px 0px 10px 10px;
+    .ia-filter-icon {
+        background-image: url(../images/filter.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 20px;
+        height: 20px;
+    }
+
+    input[type=range]{
+        width: 200px;
+    }
+    #ia-btn-form {
+        border: 1px solid $redPrimary;
+        transform: translateX(70%);
+    }
+    #ia-btn-form:hover {
+        background-color: $redPrimary;
+        border: 1px solid $backgroundColor;
+    }
+}
+
+.footer-products {
+    margin-top: 400px;
+}
+
+.products-1 {
+    .cards {
+        border-radius: 10px;
+        width: 330px;
+        height: 470px;
+        border: 1px solid $redPrimary;
+        box-shadow: 0px 0px 30px 8px rgba(0,0,0,0.75);
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        h2 {
+            color: $white;
+            width: 80%;
+            font-size: 1.5rem;
+            text-transform: capitalize;
+            margin: 0px auto;
+            text-align: center;
+        }
+        .price {
+            background-color: $redPrimary;
+            width: 200px;
+            margin: 0px auto;
+            border-radius: 5px;
+                h3 {
+                    margin-top:35px;
+                    color:$black;
+                    text-align: center;
+                }
+        }
+        .info {
+            text-align: center;
+            margin: 0px auto;
+            width: 300px;
+                img {
+                    width: 20%;
+                }
+        }
+        #monitor {
+            img {
+                margin-top: 32px;
+            }
+        }         
+    }
+    
+    .ia-lenovo,.ia-samsung-laptop {
+        margin-top: 45px;
+    }
+    
+        #lenovo {
+            img{
+                transform: translateX(15%);
+                margin: 17px 0px;
+            }
+        }
+        #dell-monitor {
+            img {
+                margin-top: 10px;
+                width: 65%;
+                transform: translateX(30%);
+            }
+        }
+            #img-phone{
+                img {
+                    width: 60%;
+                    transform: translateX(25%);
+                    margin: 10px 0px;
+                }
+            }
+    .ia-ml-mr {
+        margin-left: 110px;
+        margin-right: 90px;
+    }
+
+    .ia-predator-mon {
+        h2 {
+            margin: 30px auto;
+        }
+    }
+    .ia-dell {
+            img {
+                transform: translateX(30%)!important;
+                width: 65%!important;
+                margin: 0px!important;
+            }       
+    }
+
+    .ia-phone-iphone {
+        img {
+            margin: 10px 0px;
+            width: 55%;
+            transform: translateX(40%);
+        }
+        .info {
+            img {
+                transform: translateX(0%);
+            }
+        }
+    }
+}
+
+/*Products Main*/
+.product-img,.about-product,.product-price {
+    margin-top: 50px;
+}
+.product-img {
+    img {
+        width: 80%;
+    }
+    
+}
+.product-img-lenovo {
+    img {
+        margin-top: 30px;
+        width: 60%;
+    }
+}
+.info-specifications{
+    h2 {
+        text-align: center;
+    }
+}
+
+.about-product {
+
+   
+    table tr td {
+        font-size: 1.2rem;
+    }
+}
+
+.product-price {
+    p {
+        width: 160px;
+        height: 50px;
+        text-align: center;
+        font-size: 1.4rem;
+        border-radius: 5px;
+    }
+    input[type=number]{
+        width: 50px;
+        height: 30px;
+        margin-left: 10px;
+        background-color: $darkGrey;
+        border: 1px solid $redPrimary;
+        margin-top: 10px;
+        color: $white;
+        text-align: center;
+    }
+    input[type=submit]{
+        width: 160px;
+    }
+}
+.product-price-lenovo{
+    transform: translateX(-60px);
+}
+.product-footer {
+    margin-top: 200px;
+}
+
+.product-img-sams,.product-img-lenovo,.product-img {
+    img {
+        border-radius: 5%;
+    }
+}
+.product-img-sams {
+    img {
+        width: 75%;
+    }
+}
+
+.product-img-iphone {
+    img {
+        width: 40%;
+    }
+}
+
+.about-product-iphone {
+    transform: translateX(-15%);
+}
+
+.predatord-img {
+    img {
+        width: 80%;
+    }
+}
+.dell-monitor {
+   img {
+       width: 75%;
+   }
+}
+
+.ia-author {
+    width: 80%;
+    height: 300px;
+    margin: 30px 0px;
+    border: 1px solid $redPrimary;
+    box-shadow: 0px 0px 30px 8px rgba(0,0,0,0.75);
+
+    #circle {
+        position: absolute;
+        right: 20%;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: $redPrimary;
+    }
+    p {
+        font-size: 1.6rem;
+        padding: 10px;
+    }
+    #name { 
+        a{
+            transition: .7s;
+        }
+        a:hover{
+           color: $white;
+    }
+    }
+    svg {
+        font-size: 1.6rem;
+        transition: .6s;
+    }
+    svg:hover {
+        color: $redPrimary;
+        transition: .6s;
+    }
+}
+.ia-author-img {
+    img {
+        width: 25%;
+    }
+}
+
+
+
+
+
+
+
+
+
+   
+
+
+
+    
+    
+    
+   
