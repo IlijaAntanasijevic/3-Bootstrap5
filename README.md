@@ -1,9 +1,7 @@
-# Bootstrap-5-Project
+# Bootstrap 5 Project
 
+Learning the Bootstrap 5 framework. 
 
-Learning the Bootstrap framework. 
-
-Created on: 2022-04-24
-
+Created on: 2022-April-20
 
 Link: https://ilijabootstrap.netlify.app/
